@@ -1,5 +1,10 @@
+import Header from '@/components/Header'
+import { Flex } from '@chakra-ui/react'
+
 export default function Home() {
   return (
-   <h1>Teste</h1>
+    <Flex direction="column">
+      <Header />
+    </Flex>
   )
 }
