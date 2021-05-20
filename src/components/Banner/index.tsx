@@ -1,4 +1,4 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading, Image, Text } from '@chakra-ui/react'
 
 export default function Banner() {
   return (
@@ -27,7 +27,24 @@ export default function Banner() {
             <br />
             Infinitas possibilidades.
           </Heading>
+          <Text
+            color="gray.300"
+            mt="5"
+            fontSize={['0.8rem', 'xl']}
+            maxW={['100%', '100%', '100%', '550px']}
+          >
+            Chegou a hora de tirar do papel a viagem que você sempre sonhou.
+          </Text>
         </div>
+
+        <Image
+          w={['300px', '300px', '300px', '430px']}
+          display={['none', 'none', 'block']}
+          src="/airplane.svg"
+          alt="Avião"
+          transform="translateY(48px)"
+          ml="8"
+        />
       </Flex>
     </Flex>
   )
